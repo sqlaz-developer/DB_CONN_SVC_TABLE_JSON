@@ -1,0 +1,4 @@
+PROJECT_GROUPID=org.example.db_conn_svc_table_json
+PROJECT_VERSION=8.0.1
+SKIP_LOOP_DEPENDENCY_CHECK=true
+eclipse.preferences.version=1
