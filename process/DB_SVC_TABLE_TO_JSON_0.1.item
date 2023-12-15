@@ -50,7 +50,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:4efpnn+dGK1k1mh5b6gfo+1eoKnPP9x+Yzacvn/N" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:jFf1zhGs63yONQzst5ZHWNEeVZfngCxatxOrVLW1" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -85,7 +85,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QONK3DhulN7iECJqcnatj+Ru5+qk7IdcX8VJWABw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WLpozYb5A17QXLNIdR2mKK6qSutJbj5R7MRH8hKs" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -123,7 +123,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.jdbcParams"/>
     <elementParameter field="TEXT" name="USER" value="context.username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ESY5d3tdbgAYnxrWooa0QlTIiSfVJ5B4SAvQZb24O2P4Yw5oMa3eP/od8+0="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZVGYnudHWYUeNGFb2HAJ3GPH2KmmGWXcc3OnebKmcqbyNIavvFv5nPnJWxI="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -144,13 +144,13 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gLgp8tKJYyNhY7LbJEkP0VVSMVHNY2zU1FxsOI04" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZSPTHA2xev1HH5VErUC/WFR0wiF3yjNiz9w+heeu" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;describe &quot; + ((String)globalMap.get(&quot;table&quot;))"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;describe `&quot; + ((String)globalMap.get(&quot;table&quot;)) + &quot;`&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -201,7 +201,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:F97mE4sul+q/ygKazcEMLbQ/RvmgqELlm4+HNz9a" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FeRSFuS/YRLk3xSSar66xp29cghGxWKCwwzi2NbQ" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -253,7 +253,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="672">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="String[] columnList = ((String)globalMap.get(&quot;fields&quot;)).split(&quot;,&quot;);&#xA;String queryFields = &quot;SELECT JSON_ARRAYAGG(JSON_OBJECT(&quot;;&#xA;&#xA;for(int i=0; i&lt;columnList.length; i++){&#xA;  if(i==columnList.length-1){&#xA;    queryFields += &quot;  '&quot; + columnList[i] + &quot;', REPLACE(REPLACE(IFNULL(&quot; + columnList[i] + &quot;,''), CHAR(13), ''), CHAR(10), '')&quot;;&#xA;  }&#xA;  else {&#xA;    queryFields += &quot;  '&quot; + columnList[i] + &quot;', REPLACE(REPLACE(IFNULL(&quot; + columnList[i] + &quot;,''), CHAR(13), ''), CHAR(10), ''),&quot;;&#xA;  }&#xA;}&#xA;&#xA;queryFields += &quot;)) as data_json FROM &quot; + (String)(globalMap.get(&quot;table&quot;));&#xA;&#xA;globalMap.put(&quot;query&quot;, queryFields);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String[] columnList = ((String)globalMap.get(&quot;fields&quot;)).split(&quot;,&quot;);&#xA;String queryFields = &quot;SELECT JSON_ARRAYAGG(JSON_OBJECT(&quot;;&#xA;&#xA;for(int i=0; i&lt;columnList.length; i++){&#xA;  if(i==columnList.length-1){&#xA;    queryFields += &quot;  '&quot; + columnList[i] + &quot;', REPLACE(REPLACE(IFNULL(`&quot; + columnList[i] + &quot;`,''), CHAR(13), ''), CHAR(10), '')&quot;;&#xA;  }&#xA;  else {&#xA;    queryFields += &quot;  '&quot; + columnList[i] + &quot;', REPLACE(REPLACE(IFNULL(`&quot; + columnList[i] + &quot;`,''), CHAR(13), ''), CHAR(10), ''),&quot;;&#xA;  }&#xA;}&#xA;&#xA;queryFields += &quot;)) as data_json FROM `&quot; + (String)(globalMap.get(&quot;table&quot;)) + &quot;`&quot;;&#xA;&#xA;globalMap.put(&quot;query&quot;, queryFields);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="LABEL" value="generateQueryToMakeJSONObject"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
