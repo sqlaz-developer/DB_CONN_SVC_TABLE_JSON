@@ -10,6 +10,9 @@
       "id" : "_lXDtAJmqEe6OD93MWCah4w",
       "name" : "host"
     }, {
+      "id" : "_nF4FgJs6Ee6a1cf3dJOjWw",
+      "name" : "jdbcParams"
+    }, {
       "id" : "_lXDtA5mqEe6OD93MWCah4w",
       "name" : "password"
     }, {

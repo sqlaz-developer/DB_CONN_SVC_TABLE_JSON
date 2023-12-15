@@ -5,4 +5,5 @@
   <contextParameter xmi:id="_lXDtApmqEe6OD93MWCah4w" comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
   <contextParameter xmi:id="_lXDtA5mqEe6OD93MWCah4w" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="password"/>
   <contextParameter xmi:id="_WT_5UJmxEe6OD93MWCah4w" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql"/>
+  <contextParameter xmi:id="_nF4FgJs6Ee6a1cf3dJOjWw" comment="" name="jdbcParams" prompt="jdbcParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
 </talendfile:ContextType>
