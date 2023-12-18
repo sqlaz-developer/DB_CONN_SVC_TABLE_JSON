@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_a-syEJmqEe6OD93MWCah4w" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_lXDtAJmqEe6OD93MWCah4w" comment="" name="host" prompt="host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
-  <contextParameter xmi:id="_lXDtAZmqEe6OD93MWCah4w" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
-  <contextParameter xmi:id="_lXDtApmqEe6OD93MWCah4w" comment="" name="username" prompt="username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
-  <contextParameter xmi:id="_lXDtA5mqEe6OD93MWCah4w" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="password"/>
-  <contextParameter xmi:id="_WT_5UJmxEe6OD93MWCah4w" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql"/>
-  <contextParameter xmi:id="_nF4FgJs6Ee6a1cf3dJOjWw" comment="" name="jdbcParams" prompt="jdbcParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_lXDtAJmqEe6OD93MWCah4w" comment="" name="dbHost" prompt="dbHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_lXDtAZmqEe6OD93MWCah4w" comment="" name="dbPort" prompt="dbPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_lXDtApmqEe6OD93MWCah4w" comment="" name="dbUser" prompt="dbUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root"/>
+  <contextParameter xmi:id="_lXDtA5mqEe6OD93MWCah4w" comment="" name="dbPassword" prompt="dbPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="password"/>
+  <contextParameter xmi:id="_WT_5UJmxEe6OD93MWCah4w" comment="" name="dbName" prompt="dbName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql"/>
+  <contextParameter xmi:id="_nF4FgJs6Ee6a1cf3dJOjWw" comment="" name="dbParams" prompt="dbParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="__Z9aoJ2OEe6nNcL3RzNd2Q" comment="" name="maxLimit" prompt="maxLimit?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
 </talendfile:ContextType>
