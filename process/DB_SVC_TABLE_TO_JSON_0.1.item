@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="dbHost" prompt="dbHost?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost" internalId="_4-t7YJxjEe6t7qLpRg---Q"/>
-    <contextParameter comment="" name="dbPort" prompt="dbPort?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306" internalId="_4-t7YZxjEe6t7qLpRg---Q"/>
-    <contextParameter comment="" name="dbName" prompt="dbName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mysql" internalId="_4-t7YpxjEe6t7qLpRg---Q"/>
-    <contextParameter comment="" name="dbUser" prompt="dbUser?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="root" internalId="_4-t7Y5xjEe6t7qLpRg---Q"/>
-    <contextParameter comment="" name="dbPassword" prompt="dbPassword?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="password" internalId="_4-t7ZJxjEe6t7qLpRg---Q"/>
-    <contextParameter comment="" name="dbParams" prompt="dbParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_4-t7ZZxjEe6t7qLpRg---Q"/>
-    <contextParameter comment="" name="maxLimit" prompt="maxLimit?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="" internalId="_TuMI0J2PEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="dbHost" prompt="dbHost?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="localhost" internalId="_jP1IYJ2oEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="dbName" prompt="dbName?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="mysql" internalId="_jP1IYZ2oEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="dbParams" prompt="dbParams?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="" internalId="_jP1IYp2oEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="dbPassword" prompt="dbPassword?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="password" internalId="_jP1IY52oEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="dbPort" prompt="dbPort?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="3306" internalId="_jP1IZJ2oEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="dbUser" prompt="dbUser?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_String" value="root" internalId="_jP1IZZ2oEe6nNcL3RzNd2Q"/>
+    <contextParameter comment="" name="maxLimit" prompt="maxLimit?" promptNeeded="false" repositoryContextId="_a-fWsJmqEe6OD93MWCah4w" type="id_Integer" value="1000" internalId="_jP1IZp2oEe6nNcL3RzNd2Q"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -51,7 +51,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:rNTZIIYsxt9x+9DlMl9ocoFDSRkFs1e/InTYdqqB" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:EOG5WJC1UbavF+rRLh4jCQdP0amwMoXDwcsGkYVW" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -86,7 +86,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Ln0SAAAL4486jZyWGuowdkv2H6+D5w60BrIRbZWI" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:YHw3XJAGOrzg55Dr7T2uORzyLblozRkruiugiYyb" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -124,7 +124,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.dbName"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.dbParams"/>
     <elementParameter field="TEXT" name="USER" value="context.dbUser"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pR/Y7mBFBCRXDg2k8VXTQaW1a4cVmH+ofWYXkAnavnv3MRWnXCuJVECNxaCcHQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nZDZHxdKJFWfpEeB8Q3b7jfGk8J21NdvlNlxDF6Nb8d7FXispv5gzVVFsj5yog=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -145,7 +145,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ndaoYqpZxKRRTpGhDn4ZedYm9G5OLbOIC8rXaKa6" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pqKvTOc2YGNpbPQs1ctGTRPDdk/suax4PwxmDT1K" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -201,7 +201,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:so9fA8XjymlQ9L5oHtRKX2z4vYz8rSh7dKGiGlSC" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VxAW/2qBdq9M8WPoajun6/ftGqBVWnxTECMvze7H" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -254,7 +254,7 @@
       <elementValue elementRef="STREAMING" value="false"/>
       <elementValue elementRef="SCHEMA" value="getTable"/>
       <elementValue elementRef="HTTP_VERB" value="POST"/>
-      <elementValue elementRef="URI_PATTERN" value="&quot;/table/get&quot;"/>
+      <elementValue elementRef="URI_PATTERN" value="&quot;/tables/get&quot;"/>
       <elementValue elementRef="CONSUMES" value="JSON"/>
       <elementValue elementRef="PRODUCES" value="JSON"/>
       <elementValue elementRef="STREAMING" value="false"/>
@@ -372,22 +372,16 @@
     <metadata connector="FLOW" name="payloadWithoutTableName">
       <column key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
-    <metadata connector="FLOW" name="invalidJsonDataResponse">
-      <column key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="payloadWithTableName" expressionFilter="(!&quot;&quot;.equals(row7.tableName)) &amp; (!&quot;&quot;.equals(row7.offset)) &amp; (!&quot;&quot;.equals(row7.limit)) &amp; &#xD;&#xA;(row7.tableName != null &amp; row7.offset != null &amp; row7.limit != null)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="payloadWithTableName" expressionFilter="row7.tableName != null &amp;&amp; !&quot;&quot;.equals(row7.tableName)" activateExpressionFilter="true">
         <mapperTableEntries name="tableName" expression="row7.tableName" type="id_String" nullable="true"/>
         <mapperTableEntries name="limit" expression="row7.limit" type="id_String" nullable="true"/>
         <mapperTableEntries name="offset" expression="row7.offset" type="id_String" nullable="true"/>
       </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="payloadWithoutTableName" expressionFilter="&quot;&quot;.equals(row7.tableName)" activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="payloadWithoutTableName" expressionFilter="row7.tableName == null || &quot;&quot;.equals(row7.tableName) " activateExpressionFilter="true">
         <mapperTableEntries name="body" expression="&quot;{\&quot;data\&quot;:[],\&quot;error\&quot;: {\&quot;message\&quot;:\&quot;Table name should not be empty.\&quot;}}&quot;; " type="id_String" nullable="true"/>
-      </outputTables>
-      <outputTables sizeState="INTERMEDIATE" name="invalidJsonDataResponse" expressionFilter="row7.tableName == null | row7.offset == null | row7.limit == null" activateExpressionFilter="true">
-        <mapperTableEntries name="body" expression="&quot;{\&quot;data\&quot;:[],\&quot;error\&quot;: {\&quot;message\&quot;:\&quot;Json payload is invalid.\&quot;}}&quot;; " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row7" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="tableName" type="id_String" nullable="true"/>
@@ -410,23 +404,9 @@
       <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="384">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRESTResponse_5" show="false"/>
-    <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_String"/>
-    <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="400"/>
-    <elementParameter field="TEXT" name="CUSTOM_STATUS_CODE" value="200" show="false"/>
-    <elementParameter field="TABLE" name="RESPONSE_HEADERS"/>
-    <elementParameter field="CHECK" name="UNWRAP_JSON_RESPONSE" value="false"/>
-    <elementParameter field="TEXT" name="JSON_ARRAY_KEYS" value=""/>
-    <elementParameter field="TEXT" name="LABEL" value="invalidJSONDataResponse"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tRESTResponse_5">
-      <column defaultValue="" key="false" length="0" name="body" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-    </metadata>
-  </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_4" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="globalMap.put(&quot;table&quot;, input_row.tableName);&#xA;globalMap.put(&quot;offset&quot;, input_row.offset);&#xA;globalMap.put(&quot;limit&quot;, input_row.limit);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String offset = &quot;0&quot;;&#xA;String limit = &quot;&quot; + context.maxLimit;&#xA;if(input_row.offset != null &amp;&amp; !&quot;&quot;.equals(input_row.offset)){&#xA;  try {&#xA;        int offsetInt = Integer.parseInt(input_row.offset);&#xA;        if(offsetInt > 0){&#xA;           offset = &quot;&quot; + offsetInt;&#xA;        }&#xA;  } catch (NumberFormatException e) {&#xA;        System.out.println(&quot;Incorrect offset: &quot; + input_row.offset);&#xA;  }&#xA;}&#xA;if(input_row.limit != null &amp;&amp; !&quot;&quot;.equals(input_row.limit)){&#xA;  try {&#xA;        int limitInt = Integer.parseInt(input_row.limit);&#xA;        if(limitInt > 0 &amp;&amp; limitInt &lt; context.maxLimit){&#xA;           limit = &quot;&quot; + limitInt;&#xA;        }&#xA;  } catch (NumberFormatException e) {&#xA;        System.out.println(&quot;Incorrect limit: &quot; + input_row.limit);&#xA;  }&#xA;}&#xA;&#xA;globalMap.put(&quot;table&quot;, input_row.tableName);&#xA;globalMap.put(&quot;offset&quot;, offset);&#xA;globalMap.put(&quot;limit&quot;, limit);"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_4"/>
@@ -511,7 +491,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="MySQL" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Lfup5CT7IkthanSVdkWvW7whr3lr+bew1GNbXmLr" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Dr2euRjCEjZ5ozg+hQ/b1P0X5ZOVoyR/is/gfS+N" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -644,7 +624,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_qZXVsJ2OEe6nNcL3RzNd2Q-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_J-DMEJp8Ee6VjeSW-qUnGQ-tMap_3-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -751,10 +731,6 @@
   <connection connectorName="FLOW" label="payloadWithoutTableName" lineStyle="0" metaname="payloadWithoutTableName" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tMap_2" target="tRESTResponse_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="payloadWithoutTableName" show="false"/>
-  </connection>
-  <connection connectorName="FLOW" label="invalidJsonDataResponse" lineStyle="0" metaname="invalidJsonDataResponse" offsetLabelX="5" offsetLabelY="45" outputId="3" source="tMap_2" target="tRESTResponse_5">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="invalidJsonDataResponse" show="false"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJavaRow_4" offsetLabelX="0" offsetLabelY="0" source="tJavaRow_4" target="tDBConnection_1">
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="!(globalMap.get(&quot;table&quot;) != null &amp; ((String)globalMap.get(&quot;table&quot;)).equals(&quot;&quot;)) &amp;&#xA;!(globalMap.get(&quot;limit&quot;) != null &amp; ((String)globalMap.get(&quot;limit&quot;)).equals(&quot;&quot;)) &amp;&#xA;!(globalMap.get(&quot;offset&quot;) != null &amp; ((String)globalMap.get(&quot;offset&quot;)).equals(&quot;&quot;))"/>

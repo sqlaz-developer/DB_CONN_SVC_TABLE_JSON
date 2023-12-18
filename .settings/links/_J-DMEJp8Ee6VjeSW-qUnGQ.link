@@ -4,6 +4,24 @@
     "contextName" : "Default",
     "repoId" : "_a-fWsJmqEe6OD93MWCah4w",
     "parameterList" : [ {
+      "id" : "_lXDtAJmqEe6OD93MWCah4w",
+      "name" : "dbHost"
+    }, {
+      "id" : "_WT_5UJmxEe6OD93MWCah4w",
+      "name" : "dbName"
+    }, {
+      "id" : "_nF4FgJs6Ee6a1cf3dJOjWw",
+      "name" : "dbParams"
+    }, {
+      "id" : "_lXDtA5mqEe6OD93MWCah4w",
+      "name" : "dbPassword"
+    }, {
+      "id" : "_lXDtAZmqEe6OD93MWCah4w",
+      "name" : "dbPort"
+    }, {
+      "id" : "_lXDtApmqEe6OD93MWCah4w",
+      "name" : "dbUser"
+    }, {
       "id" : "__Z9aoJ2OEe6nNcL3RzNd2Q",
       "name" : "maxLimit"
     } ]
